@@ -81,6 +81,16 @@
                 position: "top-left",
             }
         });
+        // Preview Hack
+        setTimeout(function () {
+            jwplayer().setMute(false);
+            jwplayer().setControls(true);
+        }, 1000);
+        jwplayer().onTime(function (object) {
+            if (object.position > object.duration - 1) {
+                jwplayer().pause();
+            }
+        });
     </script>
 </body>
 
