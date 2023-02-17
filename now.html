@@ -15,6 +15,21 @@
       <script src="//cdn.jsdelivr.net/npm/p2p-media-loader-core@latest/build/p2p-media-loader-core.min.js"></script>
       <script src="//cdn.jsdelivr.net/npm/p2p-media-loader-hlsjs@latest/build/p2p-media-loader-hlsjs.min.js"></script>
       <script src="//cdn.jsdelivr.net/npm/hls.js@latest"></script>
+      <script>
+function getParameterByName(name) {
+  name = name.replace(/[\[]/, "\[").replace(/[\]]/, "\]");
+  var regex = new RegExp("[\?&]" + name + "=([^&#]*)"),
+  results = regex.exec(location.search);
+  return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+}
+var getURL = getParameterByName('get');
+var getIMG = getParameterByName('img');
+var getKEY  = getParameterByName('key');
+var getKEY2  = getParameterByName('key2');
+</script>
+<script src="//ssl.p.jwpcdn.com/player/v/8.26.0/jwplayer.js"></script>
+<script> jwplayer.key = 'XSuP4qMl+9tK17QNb+4+th2Pm9AWgMO/cYH8CI0HGGr7bdjo';
+</script>
       <div id="player"></div>
       <script>
          var playerInstance = jwplayer("player");
