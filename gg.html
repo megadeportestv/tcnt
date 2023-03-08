@@ -39,6 +39,7 @@
         var getIMG = getParameterByName('img');
         var key = getParameterByName('key');
         var key2 = getParameterByName('key2');
+        var vasturl = "https://www.videosprofitnetwork.com/watch.xml?key=ca735b8d40553e3d8557427c86d47b87";
     </script>
     <script src="//ssl.p.jwpcdn.com/player/v/8.26.0/jwplayer.js"></script>
     <script> jwplayer.key = 'XSuP4qMl+9tK17QNb+4+th2Pm9AWgMO/cYH8CI0HGGr7bdjo';
@@ -69,6 +70,15 @@
             mute: false,
             autostart: false,
             language: "es",
+            "advertising": {
+            "client": "vast",
+            "adscheduleid": "Az87bY12",
+            "schedule": [
+                {
+                    "tag": vasturl
+                }
+            ]
+        }
         });
     </script>
 </body>
