@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es" class="dark-mode">
+<head>
+  <meta charset="utf-8" />
+  <title>Mega Deportes TV - Eventos Star+</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f8f9fa; /* Ajusta el color de fondo según tu diseño */
+      color: #343a40; /* Ajusta el color del texto según tu diseño */
+      margin: 0;
+      padding: 0;
+    }
+
+    .channel-card {
+      width: 100%;
+      max-width: 300px; /* Ajusta el ancho máximo según tu diseño */
+      margin: 10px;
+      border: 1px solid #dee2e6; /* Ajusta el color del borde según tu diseño */
+      border-radius: 10px;
+      overflow: hidden;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .channel-card:hover {
+      transform: scale(1.05);
+    }
+
+    .channel-image {
+      width: 100%;
+      height: 150px; /* Ajusta la altura de la imagen según tu diseño */
+      object-fit: cover;
+    }
+
+    .channel-info {
+      padding: 10px;
+    }
+
+    .channel-name {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .channel-description {
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <main class="page-wrapper">
+    <header class="navbar navbar-expand-lg bg-light shadow-sm fixed-top">
+              <div class="container">
+                <a class="navbar-brand" href="/" aria-label="sfntv">
+                  <img class="a" src="/icono.ico" alt="Logo" data-hs-theme-appearance="dark" style="width: 30px; margin-right: 20px" />
+                  <span class="logo-text">Mega Deportes TV</span>
+                </a>
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse2" aria-expanded="false">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav id="navbarCollapse2" class="collapse navbar-collapse">
+                  <hr class="d-lg-none mt-3 mb-2" />
+                  <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                      <a href="/" class="nav-link">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="/star-plus" class="nav-link">STAR+</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="/vix-plus" class="nav-link">VIX+</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </header>
+            <div class="page-loading">
+              <div class="page-loading-inner">
+                <div class="page-spinner"></div>
+                <span>Cargando...</span>
+              </div>
+            </div>
+            <section class="d-flex min-vh-100 py-5 bg-light">
+              <div class="container text-md-start text-center">
+                <div class="row">
+                  <li class="list-group-item d-flex align-items-center t-l" style="margin-top:20px">
+                    <p class="m-auto" style="font-size:20px">
+                      <img src="/starplus.webp?s" width="80" class="logo1" /> Eventos Deportivos
+                    </p>
+                  </li>
+                  <ul class="list-group eventos-1" id="eventos">
+                    <li class="list-group-item d-flex align-items-center col-12 col-sm-6 col-lg-4 col-xl-3 t-l">
+                      <p class="placeholder-glow logoph">
+                        <span class="placeholder col-12 tituloph"></span>
+                      </p>
+                      <p class="mar-b-0"></p>
+                      <p class="placeholder-glow tituloph2">
+                        <span class="placeholder col-12"></span>
+                        <br />
+                        <span class="placeholder col-12 subtituloph"></span>
+                      </p>
+                      <br />
+                      <p></p>
+                      <p class="placeholder-glow ms-auto proxph">
+                        <span class="placeholder col-12 proxph2"></span>
+                      </p>
+                    </li>
+                    <li class="list-group-item d-flex align-items-center col-12 col-sm-6 col-lg-4 col-xl-3 t-l">
+                      <p class="placeholder-glow logoph">
+                        <span class="placeholder col-12 tituloph"></span>
+                      </p>
+                      <p class="mar-b-0"></p>
+                      <p class="placeholder-glow tituloph2">
+                        <span class="placeholder col-12"></span>
+                        <br />
+                        <span class="placeholder col-12 subtituloph"></span>
+                      </p>
+                      <br />
+                      <p></p>
+                      <p class="placeholder-glow ms-auto proxph">
+                        <span class="placeholder col-12 proxph2"></span>
+                      </p>
+                    </li>
+                    <li class="list-group-item d-flex align-items-center col-12 col-sm-6 col-lg-4 col-xl-3 t-l">
+                      <p class="placeholder-glow logoph">
+                        <span class="placeholder col-12 tituloph"></span>
+                      </p>
+                      <p class="mar-b-0"></p>
+                      <p class="placeholder-glow tituloph2">
+                        <span class="placeholder col-12"></span>
+                        <br />
+                        <span class="placeholder col-12 subtituloph"></span>
+                      </p>
+                      <br />
+                      <p></p>
+                      <p class="placeholder-glow ms-auto proxph">
+                        <span class="placeholder col-12 proxph2"></span>
+                      </p>
+                    </li>
+                    <li class="list-group-item d-flex align-items-center col-12 col-sm-6 col-lg-4 col-xl-3 t-l">
+                      <p class="placeholder-glow logoph">
+                        <span class="placeholder col-12 tituloph"></span>
+                      </p>
+                      <p class="mar-b-0"></p>
+                      <p class="placeholder-glow tituloph2">
+                        <span class="placeholder col-12"></span>
+                        <br />
+                        <span class="placeholder col-12 subtituloph"></span>
+                      </p>
+                      <br />
+                      <p></p>
+                      <p class="placeholder-glow ms-auto proxph">
+                        <span class="placeholder col-12 proxph2"></span>
+                      </p>
+                    </li>
+                    <li class="list-group-item d-flex align-items-center col-12 col-sm-6 col-lg-4 col-xl-3 t-l">
+                      <p class="placeholder-glow logoph">
+                        <span class="placeholder col-12 tituloph"></span>
+                      </p>
+                      <p class="mar-b-0"></p>
+                      <p class="placeholder-glow tituloph2">
+                        <span class="placeholder col-12"></span>
+                        <br />
+                        <span class="placeholder col-12 subtituloph"></span>
+                      </p>
+                      <br />
+                      <p></p>
+                      <p class="placeholder-glow ms-auto proxph">
+                        <span class="placeholder col-12 proxph2"></span>
+                      </p>
+                    </li>
+                    <li class="list-group-item d-flex align-items-center col-12 col-sm-6 col-lg-4 col-xl-3 t-l">
+                      <p class="placeholder-glow logoph">
+                        <span class="placeholder col-12 tituloph"></span>
+                      </p>
+                      <p class="mar-b-0"></p>
+                      <p class="placeholder-glow tituloph2">
+                        <span class="placeholder col-12"></span>
+                        <br />
+                        <span class="placeholder col-12 subtituloph"></span>
+                      </p>
+                      <br />
+                      <p></p>
+                      <p class="placeholder-glow ms-auto proxph">
+                        <span class="placeholder col-12 proxph2"></span>
+                      </p>
+                    </li>
+                    <li class="list-group-item d-flex align-items-center col-12 col-sm-6 col-lg-4 col-xl-3 t-l">
+                      <p class="placeholder-glow logoph">
+                        <span class="placeholder col-12 tituloph"></span>
+                      </p>
+                      <p class="mar-b-0"></p>
+                      <p class="placeholder-glow tituloph2">
+                        <span class="placeholder col-12"></span>
+                        <br />
+                        <span class="placeholder col-12 subtituloph"></span>
+                      </p>
+                      <br />
+                      <p></p>
+                      <p class="placeholder-glow ms-auto proxph">
+                        <span class="placeholder col-12 proxph2"></span>
+                      </p>
+                    </li>
+                    <li class="list-group-item d-flex align-items-center col-12 col-sm-6 col-lg-4 col-xl-3 t-l">
+                      <p class="placeholder-glow logoph">
+                        <span class="placeholder col-12 tituloph"></span>
+                      </p>
+                      <p class="mar-b-0"></p>
+                      <p class="placeholder-glow tituloph2">
+                        <span class="placeholder col-12"></span>
+                        <br />
+                        <span class="placeholder col-12 subtituloph"></span>
+                      </p>
+                      <br />
+                      <p></p>
+                      <p class="placeholder-glow ms-auto proxph">
+                        <span class="placeholder col-12 proxph2"></span>
+                      </p>
+                    </li>
+                  </ul>
+
+    <!-- Sección de canales -->
+    <section class="d-flex flex-wrap justify-content-center">
+      <!-- Tarjeta del canal 1 -->
+      <div class="channel-card">
+        <img src="URL_DE_LA_IMAGEN_CANAL_1" alt="Nombre del Canal 1" class="channel-image" />
+        <div class="channel-info">
+          <div class="channel-name">Nombre del Canal 1</div>
+          <div class="channel-description">Descripción del Canal 1</div>
+        </div>
+      </div>
+
+      <!-- Repite la estructura para cada canal adicional -->
+
+      <!-- Tarjeta del canal 2 -->
+      <div class="channel-card">
+        <img src="URL_DE_LA_IMAGEN_CANAL_2" alt="Nombre del Canal 2" class="channel-image" />
+        <div class="channel-info">
+          <div class="channel-name">Nombre del Canal 2</div>
+          <div class="channel-description">Descripción del Canal 2</div>
+        </div>
+      </div>
+
+      <!-- Puedes agregar más tarjetas según sea necesario -->
+
+    </section>
+
+  <footer class="footer dark-mode bg-dark border-top border-light py-5">
+              <div class="container pt-2 pt-sm-4">
+                <div class="row">
+                  <div class="col-md-6 col-lg-5 col-xl-4 pb-2 pb-sm-3 pb-md-0 mb-4 mb-md-0">
+                    <div class="navbar-brand text-dark p-0 me-0 mb-3 mb-lg-4 font-25">
+                      <img class="dark-mode-img light-logo" src="https://megadeportes.xyz/icono.ico" width="30" alt="megadeportestv" /> Mega Deportes TV
+                    </div>
+                    <p class="mb-0">Vive los principales partidos y eventos deportivos como nunca antes en megadeportes.xyz</p>
+                  </div>
+                  <div class="col-md-6 col-xxl-5 offset-lg-1 offset-xl-2 offset-xxl-3">
+                    <div class="row row-cols-1 row-cols-sm-2">
+                      <div class="col pb-2 pb-sm-0 mb-4 mb-sm-0">
+                       
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <p class="nav d-block fs-sm mb-0">
+                  <span class="text-light opacity-60">© Todos los derechos reservados.
+                </p>
+              </div>
+            </footer>
+            <br />
+            <br />
+            
+            <script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="3700efb8ae9c253361663204-|49" defer></script>
+            <script src="/bootstrap.min.js" type="3700efb8ae9c253361663204-text/javascript"></script>
+            <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=64a18d859c5ef40019022683&product=inline-share-buttons&source=platform" async="async"></script>
+        </body>
+      </html>
+
+  </main>
+</body>
+</html>
