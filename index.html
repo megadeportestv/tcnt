@@ -93,7 +93,14 @@
                 <h3 class="mb-0">Show de Duki: disfrutalo desde el 9/12</h3>
                 <p class="card-text mb-auto">El artista argentino más escuchado del mundo en el recital más grande de su historia. Desde el estadio River Plate, Buenos Aires.</p>
                 <div class="text-center">
-                    <a href="/" class="icon-link gap-1 icon-link-hover stretched-link">
+              <a href="/" id="myLink" class="icon-link gap-1 icon-link-hover stretched-link" onclick="showMessage()">
+            <script>
+            function showMessage() {
+            event.preventDefault();
+
+          alert("Enlace no disponible.");
+          }
+         </script>
                         PRÓXIMAMENTE
                         <svg class="bi"><use xlink:href="#chevron-right"/></svg>
                     </a>
