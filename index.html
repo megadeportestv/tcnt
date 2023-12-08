@@ -123,24 +123,24 @@
         // Calcular la diferencia de tiempo en milisegundos
         var timeDifference = eventDateUTC - now;
 
-        // Verificar si el evento ha ocurrido
-        if (timeDifference <= 0) {
+        // Verificar si el evento aún no ha ocurrido
+        if (timeDifference > 0) {
+            // Calcular días, horas, minutos y segundos
+            var days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+
+            // Textos singulares o plurales
+            var daysText = (days === 1) ? "día" : "días";
+            var hoursText = (hours === 1) ? "hora" : "horas";
+            var minutesText = (minutes === 1) ? "minuto" : "minutos";
+
+            // Mostrar el contador en el elemento HTML
+            document.getElementById('countdown').innerHTML = "<strong>" + days + " " + daysText + ", " + hours + " " + hoursText + ", " + minutes + " " + minutesText + "</strong>";
+        } else {
+            // Si el evento ha ocurrido
             document.getElementById('countdown').innerHTML = "<strong>¡El evento ha ocurrido!</strong>";
-            return;
         }
-
-        // Calcular días, horas, minutos y segundos
-        var days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
-        var hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        var minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
-
-        // Textos singulares o plurales
-        var daysText = (days === 1) ? "día" : "días";
-        var hoursText = (hours === 1) ? "hora" : "horas";
-        var minutesText = (minutes === 1) ? "minuto" : "minutos";
-
-        // Mostrar el contador en el elemento HTML
-        document.getElementById('countdown').innerHTML = "<strong>" + days + " " + daysText + ", " + hours + " " + hoursText + ", " + minutes + " " + minutesText + "</strong>";
     }
 
     // Actualizar el contador cada segundo
@@ -149,6 +149,7 @@
     // Actualizar el contador al cargar la página
     updateCountdown();
 </script>
+
 
 
 
