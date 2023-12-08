@@ -28,6 +28,7 @@
     <link rel="preload" href="/css/a0434a2c9f7c3506.css?22" as="style" />
     <link rel="stylesheet" href="/css/a0434a2c9f7c3506.css?22" data-n-g />
     <script src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <script src="https://cdn.skypack.dev/luxon@2.0.1"></script>
   </head>
   <style>
       .iframe-container iframe{height:266px}}
@@ -114,17 +115,14 @@
 
 <script>
     // Establecer la fecha y hora del evento en formato local (Argentina)
-    var eventDateString = "2023-09-12T21:00:00";
-    var eventDate = new Date(eventDateString);
+    var eventDate = luxon.DateTime.fromISO("2023-09-12T21:00:00", { zone: 'America/Argentina/Buenos_Aires' });
 
     function updateCountdown() {
-        var now = new Date();
-        var duration = eventDate - now;
+        var now = luxon.DateTime.local();
+        var duration = eventDate.diff(now, ['days', 'hours', 'minutes']);
 
-        // Calcular días, horas y minutos
-        var days = Math.floor(duration / (1000 * 60 * 60 * 24));
-        var hours = Math.floor((duration % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        var minutes = Math.floor((duration % (1000 * 60 * 60)) / (1000 * 60));
+        // Obtener los componentes de la duración
+        var { days, hours, minutes } = duration.toObject();
 
         // Textos singulares o plurales
         var daysText = (days === 1) ? "día" : "días";
@@ -141,6 +139,7 @@
     // Actualizar el contador al cargar la página
     updateCountdown();
 </script>
+
 
                     
                     <div class="centerr">
