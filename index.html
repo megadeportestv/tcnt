@@ -114,11 +114,11 @@
 
 <script>
     // Establecer la fecha y hora del evento en formato UTC
-    var eventDateUTC = new Date("2023-09-12T21:00:00");
+    var eventDateUTC = new Date("2023-09-12T21:00:00").getTime(); // Obtiene el timestamp en milisegundos
 
     function updateCountdown() {
         // Obtener la fecha y hora actual
-        var now = new Date();
+        var now = new Date().getTime(); // Obtiene el timestamp en milisegundos
 
         // Calcular la diferencia de tiempo en milisegundos
         var timeDifference = eventDateUTC - now;
@@ -149,6 +149,7 @@
     // Actualizar el contador al cargar la página
     updateCountdown();
 </script>
+
 
 
 
