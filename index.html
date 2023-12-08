@@ -113,12 +113,15 @@
 </div>
 
 <script>
-    // Establecer la fecha y hora del evento en formato local (Argentina)
-    var eventDate = moment("2023-09-12T21:00:00-03:00");
+    // Establecer la fecha y hora del evento en formato UTC
+    var eventDate = moment.utc("2023-09-12T21:00:00");
 
     function updateCountdown() {
+        // Convertir la fecha y hora a la zona horaria local (Argentina)
+        var localEventDate = moment.local(eventDate);
+
         var now = moment();
-        var duration = moment.duration(eventDate.diff(now));
+        var duration = moment.duration(localEventDate.diff(now));
         var days = Math.floor(duration.asDays());
         var hours = duration.hours();
         var minutes = duration.minutes();
