@@ -28,7 +28,6 @@
     <link rel="preload" href="/css/a0434a2c9f7c3506.css?22" as="style" />
     <link rel="stylesheet" href="/css/a0434a2c9f7c3506.css?22" data-n-g />
     <script src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
-    <script src="https://cdn.skypack.dev/luxon@2.0.1"></script>
   </head>
   <style>
       .iframe-container iframe{height:266px}}
@@ -114,15 +113,26 @@
 </div>
 
 <script>
-    // Establecer la fecha y hora del evento en formato local (Argentina)
-    var eventDate = luxon.DateTime.fromISO("2023-09-12T21:00:00", { zone: 'America/Argentina/Buenos_Aires' });
+    // Establecer la fecha y hora del evento en formato UTC
+    var eventDateUTC = new Date("2023-09-12T21:00:00");
 
     function updateCountdown() {
-        var now = luxon.DateTime.local();
-        var duration = eventDate.diff(now, ['days', 'hours', 'minutes']);
+        // Obtener la fecha y hora actual
+        var now = new Date();
 
-        // Obtener los componentes de la duración
-        var { days, hours, minutes } = duration.toObject();
+        // Calcular la diferencia de tiempo en milisegundos
+        var timeDifference = eventDateUTC - now;
+
+        // Verificar si el evento ha ocurrido
+        if (timeDifference <= 0) {
+            document.getElementById('countdown').innerHTML = "<strong>¡El evento ha ocurrido!</strong>";
+            return;
+        }
+
+        // Calcular días, horas, minutos y segundos
+        var days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
 
         // Textos singulares o plurales
         var daysText = (days === 1) ? "día" : "días";
@@ -139,6 +149,7 @@
     // Actualizar el contador al cargar la página
     updateCountdown();
 </script>
+
 
 
                     
