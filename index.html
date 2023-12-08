@@ -113,10 +113,10 @@
 </div>
 
 <script>
-    var eventDate = moment.utc("2023-09-12T21:00:00");
+    var eventDate = moment.tz("2023-09-12T21:00:00", "America/Argentina/Buenos_Aires");
 
     function updateCountdown() {
-        var now = moment.utc();
+        var now = moment();
         var duration = moment.duration(eventDate.diff(now));
         var days = Math.floor(duration.asDays());
         var hours = duration.hours();
