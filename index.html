@@ -114,27 +114,34 @@
 
 <script>
     // Establecer la fecha y hora del evento en formato UTC
-    var eventDate = moment.utc("2023-09-12T21:00:00");
+    var eventDateUTC = moment.utc("2023-09-12T21:00:00");
 
     function updateCountdown() {
-        // Convertir la fecha y hora a la zona horaria local (Argentina)
-        var localEventDate = moment.local(eventDate);
-
+        // Obtener la fecha y hora actual en la zona horaria local
         var now = moment();
-        var duration = moment.duration(localEventDate.diff(now));
+
+        // Obtener la fecha y hora del evento en la zona horaria local
+        var eventDateLocal = moment(eventDateUTC).local();
+
+        // Calcular la diferencia de tiempo
+        var duration = moment.duration(eventDateLocal.diff(now));
         var days = Math.floor(duration.asDays());
         var hours = duration.hours();
         var minutes = duration.minutes();
 
+        // Textos singulares o plurales
         var daysText = (days === 1) ? "día" : "días";
         var hoursText = (hours === 1) ? "hora" : "horas";
         var minutesText = (minutes === 1) ? "minuto" : "minutos";
 
+        // Mostrar el contador en el elemento HTML
         document.getElementById('countdown').innerHTML = "<strong>" + days + " " + daysText + ", " + hours + " " + hoursText + ", " + minutes + " " + minutesText + "</strong>";
     }
 
+    // Actualizar el contador cada segundo
     setInterval(updateCountdown, 1000);
 
+    // Actualizar el contador al cargar la página
     updateCountdown();
 </script>
                     
