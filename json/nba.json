@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Pelicans vs. Grizzliez",
+        "league": "NBA",
+        "img": "mem-nop",
+        "url": "#",
+        "status": "01:30"
+    },
+    {
+        "title": "Bucks vs. Spurs",
+        "league": "NBA",
+        "img": "sas-mil",
+        "url": "#",
+        "status": "02:00"
+    },
+    {
+        "title": "Warriors vs. Celtics",
+        "league": "NBA",
+        "img": "bos-gsw",
+        "url": "#",
+        "status": "04:00"
+    },
+    {
+        "title": "Blazers vs. Suns",
+        "league": "NBA",
+        "img": "phx-por",
+        "url": "#",
+        "status": "04:00"
+    }
+]
