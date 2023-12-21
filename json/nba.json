@@ -59,8 +59,8 @@
         "title": "Mavericks vs. Clippers",
         "league": "NBA",
         "img": "lac-dal",
-        "url": "EN VIVO",
-        "status": "/embed/eventos/?r=Ly9ncmVnb3JzYW1zYS5saWZlL2VtYmVkL21pbmlzdHJveWRldmFsdWFjaW9uLnBocD9pbWc9ZzAwMjIzMDAzNzJsYWMxMDAwNDU0ZGFsJmlkPTQzMjcwJm5ld2tleT0zNmMyY2E2OWIzYWI0MzUyODk2MjM1N2MxY2M0YzFnMiZuZXdrZXkyPWMyMzU3MTE1OTNmMjI1N2E2YTRlZmI3YjU3OWVmNzI4"  
+        "url": "/embed/eventos/?r=Ly9ncmVnb3JzYW1zYS5saWZlL2VtYmVkL21pbmlzdHJveWRldmFsdWFjaW9uLnBocD9pbWc9ZzAwMjIzMDAzNzJsYWMxMDAwNDU0ZGFsJmlkPTQzMjcwJm5ld2tleT0zNmMyY2E2OWIzYWI0MzUyODk2MjM1N2MxY2M0YzFnMiZuZXdrZXkyPWMyMzU3MTE1OTNmMjI1N2E2YTRlZmI3YjU3OWVmNzI4",
+        "status": "EN VIVO"  
       },
      {   
        "title": "Kings vs. Celtics",
