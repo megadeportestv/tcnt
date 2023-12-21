@@ -39,34 +39,34 @@
         "league": "NBA",
         "img": "nyk-bkn",
         "url": "/embed/eventos/?r=Ly9ncmVnb3JzYW1zYS5saWZlL2VtYmVkL21pbmlzdHJveWRldmFsdWFjaW9uLnBocD9pbWc9ZzAwMjIzMDAzNjhueWsxMDAwNDUwYmtuJmlkPTQwNDE3Jm5ld2tleT0zNmMyY2E2OWIzYWI0MzUyODk2MjM1N2MxY2M0YzFnMiZuZXdrZXkyPWMyMzU3MTE1OTNmMjI1N2E2YTRlZmI3YjU3OWVmNzI4",
-        "status": "EN VIVO"
+        "status": "FINALIZADO"
     },
      {
         "title": "Bulls vs. Lakers",
         "league": "NBA",
         "img": "lal-chi",
         "url": "/embed/eventos/?r=Ly9nZW50ay53ZWJjaW5kYXJpby5jb20vZGV2YWx1YWNpb24xMDAucGhwP2ltZz1nMDAyMjMwMDM3MGxhbDEwMDA0NTJjaGkmaWQ9NDA1ODEmbmV3a2V5PTM2YzJjYTY5YjNhYjQzNTI4OTYyMzU3YzFjYzRjMWcyJm5ld2tleTI9YzIzNTcxMTU5M2YyMjU3YTZhNGVmYjdiNTc5ZWY3Mjg=",
-        "status": "EN VIVO"
+        "status": "FINALIZADO"
     },
      {   
         "title": "Rockets vs. Hawks",
         "league": "NBA",
         "img": "atl-hou",
         "url": "/embed/eventos/?r=Ly9ncmVnb3JzYW1zYS5saWZlL2VtYmVkL21pbmlzdHJveWRldmFsdWFjaW9uLnBocD9pbWc9ZzAwMjIzMDAzNzFhdGwxMDAwNDU4aG91JmlkPTQ2Mjk4Jm5ld2tleT0zNmMyY2E2OWIzYWI0MzUyODk2MjM1N2MxY2M0YzFnMiZuZXdrZXkyPWMyMzU3MTE1OTNmMjI1N2E2YTRlZmI3YjU3OWVmNzI4",
-        "status": "EN VIVO" 
+        "status": "FINALIZADO"
      },
      {     
         "title": "Mavericks vs. Clippers",
         "league": "NBA",
         "img": "lac-dal",
         "url": "/embed/eventos/?r=Ly9ncmVnb3JzYW1zYS5saWZlL2VtYmVkL21pbmlzdHJveWRldmFsdWFjaW9uLnBocD9pbWc9ZzAwMjIzMDAzNzJsYWMxMDAwNDU0ZGFsJmlkPTQzMjcwJm5ld2tleT0zNmMyY2E2OWIzYWI0MzUyODk2MjM1N2MxY2M0YzFnMiZuZXdrZXkyPWMyMzU3MTE1OTNmMjI1N2E2YTRlZmI3YjU3OWVmNzI4",
-        "status": "EN VIVO"  
+        "status": "FINALIZADO" 
       },
      {   
        "title": "Kings vs. Celtics",
         "league": "NBA",
         "img": "bos-sac",
         "url": "/embed/eventos/?r=Ly9ncmVnb3JzYW1zYS5saWZlL2VtYmVkL21pbmlzdHJveWRldmFsdWFjaW9uLnBocD9pbWc9ZzAwMjIzMDAzNzNib3MxMDAwODEyc2FjJmlkPTU4MTIyJm5ld2tleT0zNmMyY2E2OWIzYWI0MzUyODk2MjM1N2MxY2M0YzFnMiZuZXdrZXkyPWMyMzU3MTE1OTNmMjI1N2E2YTRlZmI3YjU3OWVmNzI4",
-        "status": "EN VIVO"  
+        "status": "FINALIZADO"
       }   
 ]
