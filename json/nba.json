@@ -1,58 +1,44 @@
 [
     {
-        "title": "Pistons vs. Jazz",
+        "title": "76ers vs. Raptors",
         "league": "NBA",
-        "img": "uta-det",
+        "img": "tor-phi",
         "url": "#",
-        "status": "FINALIZADO"
+        "status": "02:00"
     },
     {
-        "title": "Cavaliers vs. Pelicans",
+        "title": "Nets vs. Nuggets",
         "league": "NBA",
-        "img": "nop-cle",
+        "img": "den-bkn",
         "url": "#",
-        "status": "FINALIZADO"
+        "status": "02:30"
     },
     {
-        "title": "Bucks vs. Magic",
+        "title": "Rockets vs. Mavericks",
         "league": "NBA",
-        "img": "orl-mil",
+        "img": "dal-hou",
         "url": "#",
-        "status": "FINALIZADO"
+        "status": "03:00"
     },
     {
-        "title": "Bulls vs. Spurs",
+        "title": "Heat vs. Hawks",
         "league": "NBA",
-        "img": "sas-chi",
+        "img": "atl-mia",
         "url": "#",
-        "status": "FINALIZADO"
+        "status": "03:00"
     },
      {
-        "title": "Thunder vs. Clippers",
+        "title": "Warriors vs. Wizards",
         "league": "NBA",
-        "img": "lac-okc",
+        "img": "was-gsw",
         "url": "#",
-        "status": "FINALIZADO"
+        "status": "05:00"
     },
      {
-        "title": "Grizzlies vs. Pacers",
+        "title": "Kings vs. Suns",
         "league": "NBA",
-        "img": "ind-mem",
+        "img": "phx-sac",
         "url": "#",
-        "status": "FINALIZADO"
-    },
-     {
-        "title": "Wolves vs. Lakers",
-        "league": "NBA",
-        "img": "lal-min",
-        "url": "#",
-        "status": "FINALIZADO"
-    },
-     {   
-        "title": "Blazers vs. Wizards",
-        "league": "NBA",
-        "img": "was-por",
-        "url": "#",
-        "status": "FINALIZADO"
-     }
+        "status": "05:00"
+    }
 ]
