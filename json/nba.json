@@ -1,44 +1,85 @@
 [
     {
-        "title": "76ers vs. Raptors",
+        "title": "Knicks vs. Bucks",
         "league": "NBA",
-        "img": "tor-phi",
+        "img": "mil-nyk",
         "url": "#",
-        "status": "FINALIZADO"
+        "status": "15:30"
     },
     {
-        "title": "Nets vs. Nuggets",
+        "title": "Clippers vs. Celtics",
         "league": "NBA",
-        "img": "den-bkn",
+        "img": "bos-lac",
         "url": "#",
-        "status": "FINALIZADO"
+        "status": "22:30"
     },
     {
-        "title": "Rockets vs. Mavericks",
+        "title": "Hornets vs. Nuggets",
         "league": "NBA",
-        "img": "dal-hou",
+        "img": "den-cha",
         "url": "#",
-        "status": "FINALIZADO"
+        "status": "02:00"
     },
     {
-        "title": "Heat vs. Hawks",
+        "title": "Pacers vs. Magic",
         "league": "NBA",
-        "img": "atl-mia",
+        "img": "orl-ind",
         "url": "#",
-        "status": "FINALIZADO"
+        "status": "02:00"
     },
      {
-        "title": "Warriors vs. Wizards",
+        "title": "Pelicans vs. Rockets",
         "league": "NBA",
-        "img": "was-gsw",
+        "img": "hou-nop",
         "url": "#",
-        "status": "FINALIZADO"
+        "status": "02:00"
     },
      {
-        "title": "Kings vs. Suns",
+        "title": "Nets vs. Pistons",
         "league": "NBA",
-        "img": "phx-sac",
+        "img": "det-bkn",
         "url": "#",
-        "status": "FINALIZADO"
-    }
+        "status": "02:30"
+    },
+    {
+     "title": "Raptors vs. Jazz",
+        "league": "NBA",
+        "img": "uta-tor",
+        "url": "#",
+        "status": "02:30"
+    },
+    {
+     "title": "Hawks vs. Grizzlies",
+        "league": "NBA",
+        "img": "mem-atl",
+        "url": "#",
+        "status": "02:30"
+    },
+    {
+     "title": "Thunder vs. Lakers",
+        "league": "NBA",
+        "img": "lal-okc",
+        "url": "#",
+        "status": "03:00"
+     },
+    {
+     "title": "Bulls vs. Cavaliers",
+        "league": "NBA",
+        "img": "cle-chi",
+        "url": "#",
+        "status": "03:00"
+   },
+    {
+     "title": "Mavericks vs. Spurs",
+        "league": "NBA",
+        "img": "cle-chi",
+        "url": "#",
+        "status": "03:30"
+    },
+    {
+     "title": "Kings vs. Wolves",
+        "league": "NBA",
+        "img": "min-sac",
+        "url": "#",
+        "status": "05:00"
 ]
