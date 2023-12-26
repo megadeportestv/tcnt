@@ -1,65 +1,9 @@
 [
     {
-        "title": "Pistons vs. Nets",
-        "league": "NBA",
+        "title": "POR QUÉ ROBAS RATA HIJA DE MIL PUTA?",
+        "league": "ESTE JSON ES DE MEGADEPORTESTV2.COM",
         "img": "bkn-det",
-        "url": "#",
-        "status": "02:00"
-    },
-    {
-        "title": "Wizards vs. Magic",
-        "league": "NBA",
-        "img": "orl-was",
-        "url": "#",
-        "status": "02:00"
-    },
-    {
-        "title": "Spurs vs. Jazz",
-        "league": "NBA",
-        "img": "uta-sas",
-        "url": "#",
-        "status": "03:00"
-    },
-    {
-        "title": "Bulls vs. Hawks",
-        "league": "NBA",
-        "img": "atl-chi",
-        "url": "#",
-        "status": "03:00"
-    },
-     {
-        "title": "Rockets vs. Pacers",
-        "league": "NBA",
-        "img": "ind-hou",
-        "url": "#",
-        "status": "03:00"
-    },
-     {
-        "title": "Pelicans vs. Grizzlies",
-        "league": "NBA",
-        "img": "mem-nop",
-        "url": "#",
-        "status": "03:00"
-   },
-     {
-        "title": "Thunder vs. Wolves",
-        "league": "NBA",
-        "img": "min-okc",
-        "url": "#",
-        "status": "03:00"
-    },
-     {
-        "title": "Blazers vs. Kings",
-        "league": "NBA",
-        "img": "sac-por",
-        "url": "#",
-        "status": "05:00"    
-    },
-     {
-        "title": "Clippers vs. Hornets",
-        "league": "NBA",
-        "img": "cha-lac",
-        "url": "#",
-        "status": "05:30"
+        "url": "/embed/eventos/?r=aHR0cHM6Ly9tZWdhZGVwb3J0ZXN0djIuY29t",
+        "status": "EN VIVO"
     }    
 ]
