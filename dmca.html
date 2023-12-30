@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-SmlepH4E4lqu8sWTQA16N8tnUN3LgkdCIiDqYHiDccDbDsj9R6DNME1pLA4d+eb6" crossorigin="anonymous">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aviso de DMCA - Mega Deportes TV</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+        }
+
+        header {
+            background-color: #2196F3;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header img {
+            max-width: 100px;
+            height: auto;
+        }
+
+        h1 {
+            color: #fff;
+            margin-left: 10px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            line-height: 1.6;
+            margin: 0 auto;
+            max-width: 800px; 
+        }
+
+        .disclaimer {
+            margin-top: 20px;
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+
+        .disclaimer h2 {
+            color: #333;
+        }
+
+        footer {
+            margin-top: 20px;
+            padding-top: 10px;
+            border-top: 1px solid #ddd;
+            text-align: center;
+            color: #888;
+        }
+
+        .social-links {
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            display: inline-block;
+            margin: 0 10px;
+            color: #2196F3;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .social-links a:hover {
+            color: #1565C0; 
+        }
+      .language-buttons {
+          margin-top: 20px;
+          display: flex;
+          justify-content: center;
+      }
+
+      .language-buttons button {
+          background-color: #2196F3;
+          color: #fff;
+          border: none;
+          padding: 10px 20px;
+          margin: 0 10px;
+          cursor: pointer;
+          border-radius: 5px;
+          font-size: 16px;
+          transition: background-color 0.3s ease-in-out;
+      }
+
+      .language-buttons button:hover {
+          background-color: #1565C0;
+      }
+      .contact-button {
+          background-color: #f3a921;
+          color: #fff;
+          border: none;
+          padding: 10px 20px;
+          cursor: pointer;
+          border-radius: 5px;
+          font-size: 16px;
+          transition: background-color 0.3s ease-in-out;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-decoration: none;
+          margin-top: 20px;
+      }
+      
+      .contact-button i {
+          margin-right: 5px;
+      }
+    </style>
+</head>
+<body>
+    
+    <div>
+      <h2 id="avisoDMCA">Aviso de DMCA</h2>
+
+      <p id="descripcionDMCA">Este sitio web cumple con el <a href="https://www.copyright.gov/legislation/dmca.pdf" target="_blank" style="color: #2196F3; text-decoration: none;">Digital Millennium Copyright Act (DMCA)</a>. No transmitimos ni alojamos de manera ilegal ningún juego, evento u otro contenido protegido por derechos de autor.</p>
+
+      <div class="disclaimer" id="disclaimer">
+          <center>
+            <h2>Descargo de responsabilidad</h2>
+            </center>
+            <p>Este sitio web opera de acuerdo con el Digital Millennium Copyright Act (DMCA). En virtud de esta ley, nos comprometemos a responder rápidamente a las reclamaciones de violación de derechos de autor y a tomar las medidas necesarias para eliminar el material infractor.</p>
+          <br />
+            <p>Los enlaces proporcionados en este sitio web apuntan a contenido alojado en servidores externos y no alojamos ni transmitimos de manera directa ningún material protegido por derechos de autor. No tenemos control sobre el contenido de estos servidores externos y no nos hacemos responsables por el uso indebido que se pueda hacer de dicho contenido.</p>
+          <br />
+            <p>Entendemos la importancia de proteger los derechos de autor y estamos comprometidos a cumplir con todas las leyes aplicables. Si eres propietario de los derechos de autor de algún contenido y crees que se ha utilizado de manera inapropiada, te instamos a que nos contactes de inmediato para que podamos abordar el problema de manera efectiva.</p>
+          <br />
+            <p>Además del DMCA, este sitio web también se adhiere a otras leyes y regulaciones relacionadas con la propiedad intelectual y la protección de derechos de autor. Nos reservamos el derecho de modificar o eliminar cualquier enlace o contenido que infrinja estas leyes.</p>
+        </div>
+
+  <a href="mailto:megadeportestv@proton.me" class="contact-button">
+          <i class="fas fa-envelope"></i> Contacto
+      </a>
+  </div>
+  
+  <div class="language-buttons">
+        <button onclick="setLanguage('es')">Español</button>
+        <button onclick="setLanguage('en')">Inglés</button>
+        <button onclick="setLanguage('de')">Alemán</button>
+        <button onclick="setLanguage('it')">Italiano</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Mega Deportes TV. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        var idioma = 'es';
+
+        function setLanguage(lang) {
+            idioma = lang;
+
+            document.getElementById('avisoDMCA').innerText = idioma === 'es' ? 'Aviso de DMCA' : idioma === 'en' ? 'DMCA Notice' : idioma === 'de' ? 'DMCA Hinweis' : 'Avviso DMCA';
+
+            document.getElementById('descripcionDMCA').innerHTML = idioma === 'es'
+                ? 'Este sitio web cumple con el <a href="https://www.copyright.gov/legislation/dmca.pdf" target="_blank" style="color: #2196F3; text-decoration: none;">Digital Millennium Copyright Act (DMCA)</a>. No transmitimos ni alojamos de manera ilegal ningún juego, evento u otro contenido protegido por derechos de autor.'
+                : idioma === 'en'
+                ? 'This website complies with the <a href="https://www.copyright.gov/legislation/dmca.pdf" target="_blank" style="color: #2196F3; text-decoration: none;">Digital Millennium Copyright Act (DMCA)</a>. We do not illegally transmit or host any games, events, or other copyright-protected content.'
+                : idioma === 'de'
+                ? 'Diese Website entspricht dem <a href="https://www.copyright.gov/legislation/dmca.pdf" target="_blank" style="color: #2196F3; text-decoration: none;">Digital Millennium Copyright Act (DMCA)</a>. Wir übertragen oder hosten keine Spiele, Veranstaltungen oder anderen urheberrechtlich geschützten Inhalte illegal.'
+                : 'Questo sito web è conforme al <a href="https://www.copyright.gov/legislation/dmca.pdf" target="_blank" style="color: #2196F3; text-decoration: none;">Digital Millennium Copyright Act (DMCA)</a>. Non trasmettiamo né ospitiamo in modo illegale alcun gioco, evento o altro contenuto protetto da copyright.';
+
+          document.getElementById('disclaimer').innerHTML = idioma === 'es'
+                ? `<center>
+                        <h2>Descargo de responsabilidad</h2>
+                    </center>
+                    <p>Este sitio web opera de acuerdo con el Digital Millennium Copyright Act (DMCA). En virtud de esta ley, nos comprometemos a responder rápidamente a las reclamaciones de violación de derechos de autor y a tomar las medidas necesarias para eliminar el material infractor.</p>
+                    <br />
+                    <p>Los enlaces proporcionados en este sitio web apuntan a contenido alojado en servidores externos y no alojamos ni transmitimos de manera directa ningún material protegido por derechos de autor. No tenemos control sobre el contenido de estos servidores externos y no nos hacemos responsables por el uso indebido que se pueda hacer de dicho contenido.</p>
+                    <br />
+                    <p>Entendemos la importancia de proteger los derechos de autor y estamos comprometidos a cumplir con todas las leyes aplicables. Si eres propietario de los derechos de autor de algún contenido y crees que se ha utilizado de manera inapropiada, te instamos a que nos contactes de inmediato para que podamos abordar el problema de manera efectiva.</p>
+                    <br />
+                    <p>Además del DMCA, este sitio web también se adhiere a otras leyes y regulaciones relacionadas con la propiedad intelectual y la protección de derechos de autor. Nos reservamos el derecho de modificar o eliminar cualquier enlace o contenido que infrinja estas leyes.</p>`
+                : idioma === 'en'
+                ? `<center>
+                        <h2>Disclaimer</h2>
+                    </center>
+                    <p>This website operates in accordance with the Digital Millennium Copyright Act (DMCA). Under this law, we commit to respond promptly to claims of copyright infringement and to take the necessary measures to remove infringing material.</p>
+                    <br />
+                    <p>The links provided on this website point to content hosted on external servers, and we do not directly host or transmit any material protected by copyright. We have no control over the content of these external servers and are not responsible for any misuse of such content.</p>
+                    <br />
+                    <p>We understand the importance of protecting copyright and are committed to complying with all applicable laws. If you are the copyright owner of any content and believe it has been used improperly, we urge you to contact us immediately so that we can address the issue effectively.</p>
+                    <br />
+                    <p>In addition to the DMCA, this website also adheres to other laws and regulations related to intellectual property and copyright protection. We reserve the right to modify or remove any link or content that violates these laws.</p>`
+                : idioma === 'de'
+                ? `<center>
+                        <h2>Haftungsausschluss</h2>
+                    </center>
+                    <p>Diese Website entspricht dem Digital Millennium Copyright Act (DMCA). Gemäß diesem Gesetz verpflichten wir uns, schnell auf Ansprüche wegen Urheberrechtsverletzungen zu reagieren und die erforderlichen Maßnahmen zu ergreifen, um das verletzende Material zu entfernen.</p>
+                    <br />
+                    <p>Die auf dieser Website bereitgestellten Links verweisen auf Inhalte, die auf externen Servern gehostet werden. Wir hosten oder übertragen keine Materialien, die durch das Urheberrecht geschützt sind. Wir haben keine Kontrolle über den Inhalt dieser externen Server und übernehmen keine Verantwortung für Missbrauch solcher Inhalte.</p>
+                    <br />
+                    <p>Wir verstehen die Bedeutung des Schutzes von Urheberrechten und verpflichten uns, alle geltenden Gesetze einzuhalten. Wenn Sie der Urheberrechtsinhaber eines Inhalts sind und der Meinung sind, dass dieser unangemessen verwendet wurde, bitten wir Sie, uns umgehend zu kontaktieren, damit wir das Problem effektiv angehen können.</p>
+                    <br />
+                    <p>Neben dem DMCA hält diese Website auch andere Gesetze und Vorschriften im Zusammenhang mit geistigem Eigentum und dem Schutz von Urheberrechten ein. Wir behalten uns das Recht vor, jeden Link oder Inhalt zu ändern oder zu entfernen, der gegen diese Gesetze verstößt.</p>`
+                : `<center>
+                        <h2>Avviso di non responsabilità</h2>
+                    </center>
+                    <p>Questo sito web è conforme al Digital Millennium Copyright Act (DMCA). Ai sensi di questa legge, ci impegniamo a rispondere prontamente alle richieste di violazione del copyright e ad adottare le misure necessarie per rimuovere il materiale lesivo.</p>
+                    <br />
+                    <p>I link forniti su questo sito web puntano a contenuti ospitati su server esterni e non ospitiamo né trasmettiamo direttamente materiale protetto da copyright. Non abbiamo controllo sul contenuto di questi server esterni e non siamo responsabili di eventuali abusi di tali contenuti.</p>
+                    <br />
+                    <p>Comprendiamo l'importanza della protezione del copyright e ci impegniamo a rispettare tutte le leggi applicabili. Se sei il proprietario del copyright di un contenuto e ritieni che sia stato utilizzato impropriamente, ti preghiamo di contattarci immediatamente in modo che possiamo affrontare il problema in modo efficace.</p>
+                    <br />
+                    <p>Oltre al DMCA, questo sito web aderisce anche ad altre leggi e regolamenti relativi alla proprietà intellettuale e alla protezione del copyright. Ci riserviamo il diritto di modificare o rimuovere qualsiasi link o contenuto che violi queste leggi.</p>`;
+        }
+    </script>
+</body>
+</html>
