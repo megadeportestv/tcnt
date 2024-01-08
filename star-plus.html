@@ -28,6 +28,25 @@
     <link rel="preload" href="/a0434a2c9f7c3506.css" as="style" />
     <link rel="stylesheet" href="/a0434a2c9f7c3506.css" data-n-g />
   </head>
+  <style>
+            .star-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ffcc00; /* Color de fondo amarillo */
+            color: #000; /* Color de texto negro */
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        /* Estilo del icono "star+" utilizando Unicode */
+        .star-icon::before {
+            content: '\2605'; /* Código Unicode para el símbolo de estrella rellena */
+            margin-right: 5px;
+        }
+  </style>
   <body>
     <script src="https://cdn.jsdelivr.net/npm/console-ban@4.1.0/dist/console-ban.min.js" type="ac1246787068f2615875727d-text/javascript"></script>
     <div id="__next">
@@ -76,6 +95,9 @@
                     <p class="m-auto" style="font-size:20px">
                       <img src="/starplus.webp?s" width="80" class="logo1" /> Eventos Deportivos
                     </p>
+                    <a class="star-btn" href="/star-plus-br">
+    <span class="star-icon"></span> Star+ BR
+</a>
                   </li>
                   <ul class="list-group eventos-1" id="eventos">
                     <li class="list-group-item d-flex align-items-center col-12 col-sm-6 col-lg-4 col-xl-3 t-l">
