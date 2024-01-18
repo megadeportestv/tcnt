@@ -35,12 +35,17 @@
     <script src="/_ssgManifest.js"></script>
  </head>
 <style>
-  #cafecito-container {
+  #custom-cafecito {
     position: fixed;
-    top: 50%; /* Coloca el contenedor en la mitad de la pantalla verticalmente */
-    left: 50%; /* Coloca el contenedor en la mitad de la pantalla horizontalmente */
-    transform: translate(-50%, -50%); /* Centra el contenedor correctamente */
+    top: 20px; /* Ajusta la distancia desde la parte superior según tus necesidades */
+    left: 50%; /* Coloca el botón en el centro horizontalmente */
+    transform: translateX(-50%); /* Centra el botón correctamente horizontalmente */
     z-index: 1000; /* Asegura que el botón esté por encima de otros elementos */
+  }
+
+  #custom-cafecito img {
+    width: 150px; /* Ajusta el ancho del botón según tus necesidades */
+    height: auto; /* Mantiene la proporción de la imagen */
   }
 </style>
   <body>
@@ -80,6 +85,11 @@
               </nav>
             </div>
           </header>
+<div id="custom-cafecito">
+  <a href='https://tu-link-de-cafecito-aqui' rel='noopener' target='_blank'>
+    <img src='https://ruta-de-tu-imagen-del-boton.png' alt='Tu mensaje personalizado' />
+  </a>
+</div>
 
           <main id="content" role="main" class="main">
             <div class="content container">
