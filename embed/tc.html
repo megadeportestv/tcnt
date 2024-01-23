@@ -48,12 +48,21 @@
 </head>
 <body>
   <div id="loading-overlay">
-    <div id="loading-message">Cargando... Por favor, espere.</div>
-    <div id="loading-info">El reproductor puede tardar hasta más de 1 minuto.</div>
+    <div id="loading-message">Loading... Please wait.</div>
+    <div id="loading-info">The player may take more than 1 minute to load.</div>
   </div>
   <div id="player"></div>
 
   <script>
+    // Obtener el idioma del navegador
+    var userLanguage = navigator.language || navigator.userLanguage;
+    
+    // Establecer el mensaje de carga según el idioma
+    var loadingMessage = userLanguage.startsWith('es') ? 'Cargando... Por favor, espere.' : 'Loading... Please wait.';
+    
+    // Establecer el mensaje en el HTML
+    document.getElementById('loading-message').innerText = loadingMessage;
+
     function getParameterByName(name) {
       name = name.replace(/[\[]/, "\[").replace(/[\]]/, "\]");
       var regex = new RegExp("[\?&]" + name + "=([^&#]*)"),
