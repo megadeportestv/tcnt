@@ -18,7 +18,7 @@ $(document).ready(function() {
 
   function setupPlayer() {
     var xhr = new XMLHttpRequest();
-    xhr.open('GET', 'https://api.codetabs.com/v1/proxy/?quest=https://maindota2.co/gh/' + eventId + '.php?' + Math.random().toString(36).substring(7), true);
+    xhr.open('GET', 'https://api.codetabs.com/v1/proxy/?quest=https://maindota2.co/' + eventId + '.json?' + Math.random().toString(36).substring(7), true);
     xhr.onload = function() {
       if (xhr.status === 200) {
         var data = JSON.parse(xhr.responseText);
