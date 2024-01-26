@@ -1,1 +1,58 @@
-Hello World!
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error 404 - Página no encontrada</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5f5;
+            text-align: center;
+            padding: 50px;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #d9534f;
+        }
+
+        p {
+            color: #333333;
+        }
+
+        .redirect-message {
+            font-size: 18px;
+            color: #5bc0de;
+        }
+
+        .redirect-link {
+            color: #5bc0de;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Error 404 - Página no encontrada</h1>
+        <p>Lo sentimos, la página que estás buscando no existe.</p>
+        <p class="redirect-message">Serás redirigido a <a class="redirect-link" href="https://megadeportestv2.com">https://megadeportestv2.com</a> en 10 segundos.</p>
+    </div>
+
+    <script>
+        setTimeout(function() {
+            window.location.href = "https://megadeportestv2.com";
+        }, 10000);
+    </script>
+</body>
+</html>
