@@ -40,19 +40,40 @@
             text-decoration: none;
             font-weight: bold;
         }
+
+        #countdown {
+            font-size: 24px;
+            color: #333333;
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Error 404 - Página no encontrada</h1>
         <p>Lo sentimos, la página que estás buscando no existe.</p>
-        <p class="redirect-message">Serás redirigido a <a class="redirect-link" href="https://megadeportestv2.com">https://megadeportestv2.com</a> en 10 segundos.</p>
+        <p class="redirect-message">Serás redirigido a <a class="redirect-link" href="https://megadeportestv2.com">https://megadeportestv2.com</a> en <span id="countdown">10</span> segundos.</p>
     </div>
 
     <script>
-        setTimeout(function() {
-            window.location.href = "https://megadeportestv2.com";
-        }, 10000);
+        let seconds = 10;
+
+        function updateCountdown() {
+            document.getElementById('countdown').textContent = seconds;
+        }
+
+        function countdown() {
+            updateCountdown();
+            seconds--;
+
+            if (seconds < 0) {
+                window.location.href = "https://megadeportestv2.com";
+            } else {
+                setTimeout(countdown, 1000);
+            }
+        }
+
+        countdown();
     </script>
 </body>
 </html>
