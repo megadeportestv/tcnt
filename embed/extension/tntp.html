@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Embed</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript">
+  function redirectToExtensionOrHLS(data){
+    if (data.hlsUrl && data.extensionInstalled) {
+      console.log("Extensión instalada: " + data.hlsUrl);
+      location.href = 'chrome-extension://lcipembjfkmeggpihdpdgnjildgniffl/player.html#' + data.hlsUrl;
+    } else if (data.hlsUrl) {
+      console.log("Extensión no instalada, redireccionando directamente al m3u8: " + data.hlsUrl);
+      location.href = data.hlsUrl;
+    } else {
+      console.error("Error: No se encontró la URL HLS en la respuesta del servidor.");
+      location.href = 'descargar.html';
+    }
+  }
+
+  function detectExtension(callback) {
+    var img = new Image();
+    img.src = "chrome-extension://lcipembjfkmeggpihdpdgnjildgniffl/icon128.png";
+    img.onload = function() {
+      callback(true);
+    };
+    img.onerror = function() {
+      callback(false);
+    };
+  }
+
+  console.log('Obteniendo la URL m3u8...');
+  $.getJSON("https://conywhan.bar/test2.php", function(data) {
+    console.log("Respuesta del servidor:", data);
+    console.log('Verificando la extensión...');
+    detectExtension(function(extensionInstalled) {
+      redirectToExtensionOrHLS({
+        hlsUrl: data.hlsUrl,
+        extensionInstalled: extensionInstalled
+      });
+    });
+  }).fail(function() {
+    console.error("Error al obtener la respuesta del servidor.");
+    location.href = 'descargar.html';
+  });
+</script>
+</head>
+<body>
+<!-- Contenido de la página -->
+</body>
+</html>
