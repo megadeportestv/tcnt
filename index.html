@@ -495,12 +495,18 @@ background: #35afe3!important;
       <script async="async" data-cfasync="false" src="//desperateambient.com/b21f89cf414ba1796d6f6190928010db/invoke.js"></script>
     <div id="container-b21f89cf414ba1796d6f6190928010db"></div>
   </body>
-   <head>
-    <script id="aclib" type="text/javascript" src="//acscdn.com/script/aclib.js"></script>
-      <script type="text/javascript">
-    aclib.runPop({
-        zoneId: '7810210',
-    });
-</script> 
-   </head>           
+</script>
+<script> $(".carousel").owlCarousel({
+  margin: 20,
+  loop: true,
+  autoplay: true,
+  autoplayTimeout: 4500,
+  autoplayHoverPause: true,
+  responsive: {
+      0: { items: 1, nav: false },
+      600: { items: 2, nav: false },
+      1000: { items: 3, nav: false },
+  },
+});
+ </script>          
 </html>
