@@ -56,7 +56,7 @@
     var getKEY = getParameterByName('key');
     var getKEY2 = getParameterByName('key2');
 
-    var channelUrl = 'https://api.codetabs.com/v1/proxy/?quest=https://gregorsamsa.life/json/' + getURL + '.json?get=' + getURL + '&key=' + getKEY + '&key2=' + getKEY2;
+    var channelUrl = 'https://gregorsamsa.life/json/' + getURL + '.json?get=' + getURL + '&key=' + getKEY + '&key2=' + getKEY2;
 
     $.getJSON(channelUrl, function(data) {
       var url = data.url;
