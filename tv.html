@@ -29,8 +29,8 @@
     <link rel="stylesheet" href="/css/events.css?v2" type="text/css">
     <link rel="stylesheet" href="/css/slider.css" type="text/css">
     <link rel="stylesheet" href="/css/styles.css" type="text/css">
-    <script src="/tv/modernizr.custom.js"></script>
-    <script type="text/javascript" src="/tv/smallscripts120.js?inv"></script>
+    <script src="/js/modernizr.custom.js"></script>
+    <script type="text/javascript" src="/js/smallscripts120.js?inv"></script>
     <script src="https://kit.fontawesome.com/38f7dffd19.js" crossorigin="anonymous"></script>
 
 <body link='#547484' onload='guardaHorario();dT();' vlink='#547484'>
@@ -272,9 +272,24 @@
                     <h2>TV en VIVO</h2>
                 </div>
 
+<div class="alert alert-danger" role="alert">
+ 24-11-2023 ⚠ MANTENIMIENTO FINALIZADO, TODOS LOS CANALES ESTÁN FUNCIONANDO.
+</div>
+
                 <input type="text" name="searchbox" id="searchbox" class="filterinput form-control" placeholder="Buscar canal..." onkeyup="buscarCanales()">
                  <p></p>
 
+<center>
+<div class="card text-white bg-dark mb-3" style="width: 18rem;">
+  <img class="card-img-top" src="https://i.imgur.com/xxKHswG.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h4>Gran Hermano Argentina 2023/2024</h4>
+    <p>Disfruta de la emocionante nueva temporada del reality. No te pierdas el estreno y disfruta de la transmisión las 24 horas, los 7 días de la semana a través de Mega Deportes TV. Podrás acceder de manera gratuita a las 4 cámaras exclusivas. </p>
+    <p>Este Lunes, 21:45 hs</p>
+    <a href="https://megadeportestv2.com/ver/gran-hermano" class="btn btn-primary">VER EN VIVO</a>
+  </div>
+</div>   
+</center>
 
 <div class="row">
     <div class="col-12 d-flex justify-content-end">
@@ -284,7 +299,20 @@
         </div>
     </div>
 </div>
-                
+                <div id="canales" class="row">
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="https://megadeportes.xyz">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="https://megadeportes.xyz/icono.ico" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Mega Deportes TV
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
                     <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2">
                         <a href="/en-vivo/telefe/">
                             <div class="lm-canal lm-info-block gray-default" title="telefe">
@@ -297,7 +325,6 @@
                             </div>
                         </a>
                     </div>
-                
                     <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
                         data-groups='["category_all", "category_11"]'>
                         <a href="/en-vivo/eltrece/">
@@ -404,33 +431,3492 @@
                             </div>
                         </a>
                     </div>
-                    
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/cronicatv/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Cronica_TV.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Crónica TV
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/diputados-tv/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/09/logo-DTV-e1632236848545.png" alt=""
+                                        srcset="">
+                                </div>
+                                <h4>
+                                    Diputados TV (Argentina)
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/bravo-tv/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/Bravotv.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Bravo TV
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/ciudad-magazine/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Magazine.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Ciudad Magazine
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/ipnoticias/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/09/IP_Informacion_Periodistica_2020-e1632249287206.png"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    IP Noticias
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/rural/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Rural.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Canal Rural
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="https://megadeportes.xyz/tv-publica.html">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/09/1200px-TVP_-_Television_Publica_2021.svg_-e1632236378785.png"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    TV Pública
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/telemax/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/TLX.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Telemax
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/encuentro/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/09/descarga-2-e1632236491777.png" alt=""
+                                        srcset="">
+                                </div>
+                                <h4>
+                                    Encuentro
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/metro-nos-vemos/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/09/metro-e1632236533297.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Metro
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/net/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/NET.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Canal Net
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/gentv-caba/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/GenTV.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Gen TV CABA
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/argentinisima-satelital/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/argentinisima_satelital.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Argentinisima Satelital
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/el-doce-cordoba/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Canal_12_Cordoba.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Doce Córdoba
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/acequia-tv/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/09/Acequia-TV-en-vivo-Online-e1632236584957.png"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Acequia TV
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/canal-9-mendoza/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Canal_9_Mendoza.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Canal 9 (MDZ)
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/el-siete-mendoza/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/El_Siete.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    El Siete (MDZ)
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/telesol/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/09/3oHiMNvj_400x400-e1632236667180.jpg" alt=""
+                                        srcset="">
+                                </div>
+                                <h4>
+                                    Telesol
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/13-max/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/13_Max_HD.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    13 Max HD
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/7-salta/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/7_Salta.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    7 Salta
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/el10tv-salta/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/10_Salta.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    10 Salta
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/milenium-tv-salta/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Milenium_TV.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Milenium Salta
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/tvdos-salta/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/TVdos_Salta.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    TVdos Salta
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/13-san-luis/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Canal_13_San_Luis.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    13 San Luis
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/canal-10-cordoba/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/canal_10_cordoba.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Canal 10 (CBA)
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/canal-10-rio-negro/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/09/Canal10_isologo-e1632236714523.png" alt=""
+                                        srcset="">
+                                </div>
+                                <h4>
+                                    Canal 10 (RN)
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/9-comodoro-rivadavia/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Canal_9_Comodoro.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Canal 9 (CRD)
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/telpin-canal-2/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Telpin.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Telpin
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/doce-misiones/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Canal_12_Misiones.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    12 Misiones
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/tectv/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/10/tectv.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    TEC TV
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/canal-a/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/09/canal-a-e1632249324107.jpg" alt=""
+                                        srcset="">
+                                </div>
+                                <h4>
+                                    Canal (á)
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/tvn/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/tvn.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    TVN
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/24-horas-chile/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/24horas.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    24 Horas
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/mega-chile/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2022/01/megacl.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Mega
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/lared/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/lared.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    La Red
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/canal-13/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/canal13.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Canal 13
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/tv-chile/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/09/TV-Chile-en-vivo-Online-1-e1632249451518.png"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    TV Chile
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                      <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/chilevision/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/chilevision.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Chilevision
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="https://crytonep.github.io/mtonline/cnn-espanol.html">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/CNN_ES.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    CNN
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/dnews/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/dnews.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    DNews
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/foxnews/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/09/fox-news-e1632249653226.png" alt=""
+                                        srcset="">
+                                </div>
+                                <h4>
+                                    FOX News
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/usa-today/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/12/usatoday.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    USA Today
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/the-weather-channel/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/12/the-weather-channel.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    The Weather Channel
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/cbs-news/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/11/unnamed-1-e1637259500776.png" alt=""
+                                        srcset="">
+                                </div>
+                                <h4>
+                                    CBS News
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/nbc-news/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/11/NBC_News_2013_logo-e1637259544385.png"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    NBC News
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/sky-news/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/11/unnamed-2-e1637259590863.png" alt=""
+                                        srcset="">
+                                </div>
+                                <h4>
+                                    Sky News
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/bbc-news/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/09/1200px-BBC_News_2019.svg_-e1632249376637.png"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    BBC News
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/accu-weather-now/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/12/accuweather.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    AccuWeather Now
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/telemundo/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Telemundo.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Telemundo
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/univision/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/09/univision-1-e1632250356324.jpg" alt=""
+                                        srcset="">
+                                </div>
+                                <h4>
+                                    Univisión
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/pasiones/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Pasiones_Tv_logo.svg/1200px-Pasiones_Tv_logo.svg.png"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Pasiones
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/europa-europa/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/09/EUROPAEUROPALOGO2016-e1632249402845.png"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Europa Europa
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/wobi/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/09/wobi-logook-e1632249428276.jpg" alt=""
+                                        srcset="">
+                                </div>
+                                <h4>
+                                    Wobi
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/holatv/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/09/HOLA_TV_Logo-scaled-e1632249696117.jpg"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    ¡Hola! TV
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/mas-chic/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/09/mas-chic-e1632249719112.png" alt=""
+                                        srcset="">
+                                </div>
+                                <h4>
+                                    Mas Chic
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/cgtn/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/CGTN.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    CGTN
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/tve-internacional/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/09/1200px-Logo_TVE-Internacional.svg-1-e1632251279756.png"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    TVE Internacional
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                     <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/la1/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/la1.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    La 1
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                     <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/la2/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/la2.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    La 2
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/antena3/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Antena_3.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Antena 3
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/cuatro/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Cuatro.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Cuatro
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/telecinco/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Telecinco.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Telecinco
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/la-sexta/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/10/La_Sexta_A3M-e1634945234766.png" alt=""
+                                        srcset="">
+                                </div>
+                                <h4>
+                                    La Sexta
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/8tv/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/8tv.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    8 TV
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/mega-tv/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/10/Mega-TV-Espana-en-directo-Online-1-e1634945443261.png"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Mega (España)
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/dkiss/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="https://www.dkiss.es/wp-content/uploads/logo-DKISS-prince.jpg" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    DKISS
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/dmax/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/DMax_Espa%C3%B1a.svg/1200px-DMax_Espa%C3%B1a.svg.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    DMAX
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/odisea/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="https://www.formulatv.com/images/noticias/55600/55629/1_d8fe9d8dd9.jpg" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Odisea
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/divinity/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="https://pbs.twimg.com/profile_images/744781228683857920/2hIDK_eo_400x400.jpg" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Divinity
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/energy/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="https://sincroguia-tv.expansion.com/uploads/images/e/n/e/energy.jpg" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Energy
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/bemad/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/bemad.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Be Mad
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/neox/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/NEOX.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Neox
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/nova/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/NOVA.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Nova
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/clan/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/clan.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Clan
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/telesur/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Telesur.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Telesur
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/rt-espanol/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/RT.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    RT Español
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/euronews/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Euronews.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Euronews
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/eurochannel/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Eurochannel.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Eurochannel
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/dw-espanol/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/DW.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    DW
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/rai-italia/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/09/1200px-Logo_of_RAI_2016.svg_-e1632251396870.png"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    RAI Italia
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/teledoce/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Teledoce.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Teledoce
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/canal10uru/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/10/canal10uru.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Canal 10 UY
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/canal4uru/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/10/canal4uru.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Canal 4 UY
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/canal5uy/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2022/02/canal5uy.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Canal 5 UY
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/tvciudad/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/10/tvciudad.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    TV Ciudad
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/ucl-uruguay/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/UCL.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    UCL
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/c9n-paraguay/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/C9N.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    C9N
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/telefuturo/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Telefuturo.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Telefuturo
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/snt/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/10/SNT_LOGO-e1634221031607.jpg" alt=""
+                                        srcset="">
+                                </div>
+                                <h4>
+                                    SNT
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/gen/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/10/tSijOZ6V_400x400-e1634221096379.jpg" alt=""
+                                        srcset="">
+                                </div>
+                                <h4>
+                                    Gen
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/noticias-paraguay/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/10/NPY_Noticias_Paraguay-e1634221230637.png"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Noticias PY
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/paravision/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/10/Paravision-en-vivo-Online-1-e1634221306713.png"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Paravisión
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/abc-tv/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/10/unnamed-3-e1634221517285.jpg" alt=""
+                                        srcset="">
+                                </div>
+                                <h4>
+                                    ABC TV
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/unicanal/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2022/01/unicanal.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Unicanal
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/venusmedia/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/10/venusmedia.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Venus Media
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/trece-paraguay/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2022/02/trecepy.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Trece PY
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/latele-paraguay/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2022/02/latelepy.jpg" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    LaTele PY
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/paraguaytv/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2022/04/paraguaytv.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Paraguay TV
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/ecuavisa/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/10/ecuavisa.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Ecuavisa
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/teleamazonas/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/10/teleamazonas.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    TeleAmazonas
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/teletica/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/12/Teletica.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Teletica
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/ecuador-tv/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/ecuadortv.png" alt=""
+                                        srcset="">
+                                </div>
+                                <h4>
+                                    Ecuador TV
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/multicanalcatamayo/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/10/multicanal.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Multicanal Catamayo
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/tv-max/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/09/Logo_tvmax-e1632249842539.png" alt=""
+                                        srcset="">
+                                </div>
+                                <h4>
+                                    TV Max
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/caracol-tv/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="https://play-lh.googleusercontent.com/O3SK7F6PpB_nSQDsO5-O9OOdd-MywuTbKNAiawO5pDMtcI8S7iOK5qNPeCtdTgLurmo"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Caracol
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/rcn/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/canalrcn.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    RCN
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/rcnnovelas/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2022/07/rcnnovelas.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    RCN Novelas
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/cablenoticias/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2022/07/cablenoticias.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Cable Noticias
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/scolombia/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/10/scolombia.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Señal Colombia
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/canalunocolombia/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/09/1200px-Channel_1_Colombia_-_2017_logo.svg_-e1632251157524.png"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Canal Uno
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/tvagro/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/TV_Agro_logo.svg/1200px-TV_Agro_logo.svg.png"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    TV Agro
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/telecaribe/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="https://static.wixstatic.com/media/61a456_802a72b015494d4b8ccbdef592324a35~mv2.jpg/v1/fill/w_280,h_280,fp_0.50_0.50,q_90,enc_auto/61a456_802a72b015494d4b8ccbdef592324a35~mv2.jpg"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Telecaribe
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/latina/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/09/latina-e1632249971930.jpg" alt=""
+                                        srcset="">
+                                </div>
+                                <h4>
+                                    Latina
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/globaltv/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/09/Global_TV_2019-e1632250190184.png" alt=""
+                                        srcset="">
+                                </div>
+                                <h4>
+                                    Global TV
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/america-tv/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/09/america-1-e1632250268189.jpg" alt=""
+                                        srcset="">
+                                </div>
+                                <h4>
+                                    América TV
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/willax/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/willax.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Willax TV
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/atv/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2022/02/atv.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    ATV
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/latele/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2022/07/latelepe.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    La Tele
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/tv-peru/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Tv_Per%C3%BA_-_Logo_2019_Reducido_%28TVPE%29.svg/250px-Tv_Per%C3%BA_-_Logo_2019_Reducido_%28TVPE%29.svg.png"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    TV Perú
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/panamericana-tv/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Logo_panamericana_tv_2020_2.png/800px-Logo_panamericana_tv_2020_2.png"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Panamericana Televisión
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/canal-n/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="https://www.televisiongratis.tv/components/com_televisiongratis/images/canal-n---noticias-de-peru-1797.png"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Canal N
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/rpp/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/RPP_TV_-_2017_logo.png"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    RPP TV
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/ivc/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/10/ivc.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    IVC
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/venezolana-de-television/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/11/1200px-Venezolana_de_Television_2018.svg_-e1638203236418.png"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    VTV
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/globovision/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/11/Logo-Globovision-e1638204637358.png" alt=""
+                                        srcset="">
+                                </div>
+                                <h4>
+                                    Globovisión
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/venevision/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/10/venevision.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Venevisión
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/tves/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/11/tves-e1638205164555.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    TVes
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/televen/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c0/Televen_logo.PNG"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Televen
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/las-estrellas/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Las_Estrellas.png" alt=""
+                                        srcset="">
+                                </div>
+                                <h4>
+                                    Las Estrellas
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/tlnovelas/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/09/tlnovelas-e1632249780226.jpg"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Tl Novelas
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/azteca7/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="https://cdn.mitvstatic.com/channels/mx_azteca-7_m.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Azteca 7
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/aztecauno/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/09/71f97661d0a0ed09472d6264434e8617_750x400-e1632250559360.jpg"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Azteca Uno
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/canal5/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2022/03/canal5.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Canal 5
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/adn-40/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/adn40.png" alt=""
+                                        srcset="">
+                                </div>
+                                <h4>
+                                    ADN 40
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/canal-once/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/once.png" alt=""
+                                        srcset="">
+                                </div>
+                                <h4>
+                                    Canal Once
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/multimedios/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="https://seeklogo.com/images/M/multimedios-logo-C81A3ECA9A-seeklogo.com.png" alt=""
+                                        srcset="">
+                                </div>
+                                <h4>
+                                    Multimedios Television
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/azcinema/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2022/07/azcinema.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Az Cinema
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/azmundo/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/09/gallery_1163_2_32434-e1632250525144.png"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Az Mundo
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/azcorazon/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/09/gallery_1163_2_6112-e1632614315378.png"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Az Corazón
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/azclic/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/09/az-clic-e1632614384621.jpg" alt=""
+                                        srcset="">
+                                </div>
+                                <h4>
+                                    Az Clic
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/depelicula/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/09/imgpsh_fullsize_anim-e1632250929306.jpg"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    De Película
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/depeliculaplus/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2022/03/depeliculaplus.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    De Película Plus
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="https://crytonep.github.io//mtonline/cartoon-network.html">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Cartoon_Network.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Cartoon Network
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="https://crytonep.github.io//mtonline/tooncast.html">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Tooncast.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Tooncast
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/cartoonito/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/12/Cartoonito_-_Logo_2021.svg_-e1638365884508.png"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Cartoonito
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/disney-channel/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Disney_Channel.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Disney Channel
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/disneyjr/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Disney_Junior.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Disney JR
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/discovery-kids/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Discovery_Kids.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Discovery Kids
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/nick/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Nick.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Nick
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/nick-jr/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Nick_Jr.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Nick JR
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/teen-nick/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2022/07/teennick.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Teen Nick
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/pakapaka/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Pakapaka.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Paka Paka
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/baby-tv/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Baby_TV.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Baby TV
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/dreamworks-channel/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2022/04/dreamworks.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Dreamworks
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/los-simpson-tv/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Los_Simpsons.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Los Simpsons TV
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/futurama-tv/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Futurama.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Futurama TV
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/dragon-ball-tv/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Dragon_Ball_TV.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Dragon Ball TV
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/el-chavo-del-8/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/El_Chavo.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    El Chavo del 8
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/los-caballeros-del-zodiaco/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/los_caballeros_del_zodiaco.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Los Caballeros del Zodiaco
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/bitme/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/09/BitMe_logo.svg_-e1632251694572.png" alt=""
+                                        srcset="">
+                                </div>
+                                <h4>
+                                    Bitme
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/boing/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Boing.svg/2048px-Boing.svg.png"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Boing
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/zoomoo/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="https://2.bp.blogspot.com/-oaECNqHvlVY/Wjl-eaQboWI/AAAAAAAApps/i4-TTztGCscVqLlcdupn8gK5JFdsnq3iQCLcBGAs/s1600/zoomoo-net-clarotv-banner.jpg"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    ZooMoo
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/flow-music/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/flow_music.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Flow Music
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/canal-cm/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/CMTV.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    CM
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/quiero-musica/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Quiero_Musica.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Quiero Música
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/vh1/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/VH1.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    VH1
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/music-top/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Music_Top.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Music Top
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/toplatino/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/09/descarga-6-e1632252160861.png" alt=""
+                                        srcset="">
+                                </div>
+                                <h4>
+                                    Top Latino
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/mtv/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/MTV.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    MTV
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/mtv-hits/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/09/ar_mtv-hits_m-e1632251915287.png" alt=""
+                                        srcset="">
+                                </div>
+                                <h4>
+                                    MTV Hits
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/mtv80s/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/09/mtv80s.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    MTV 80s
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/mtv00s/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/09/mtv00s.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    MTV 00s
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/vorterix/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Vorterix.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Vorterix
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/telehit/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/09/ar_telehit-lat_m-e1632251997898.png" alt=""
+                                        srcset="">
+                                </div>
+                                <h4>
+                                    Telehit
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/telehitmusica/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/09/Telehit_Musica_logo-e1632252054190.png"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Telehit Música
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/telehit-musica-plus/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2022/02/telehitmusicaplus.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Telehit Música Plus
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/eurodance-90s/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/12/eurodancetv.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Eurodance 90´s
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/bandamax/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/09/bandamax.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Bandamax
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/nick-music/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/09/nick-music-2020-e1632605861659.png" alt=""
+                                        srcset="">
+                                </div>
+                                <h4>
+                                    NickMusic
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/concert-channel/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/12/concert-channel.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Concert Channel
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/discovery/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Discovery.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Discovery
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/discovery-world/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="https://i.imgur.com/mkS0YWE.png"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Discovery World
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/discovery-theater/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/2015_Discovery_theater_HD_logo.svg/2560px-2015_Discovery_theater_HD_logo.svg.png"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Discovery Theater
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/discovery-science/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="https://cdn.mitvstatic.com/channels/ar_discovery-science_m.png" alt=""
+                                        srcset="">
+                                </div>
+                                <h4>
+                                    Discovery Science
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/tlc-discovery/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Discovery_TLC.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Discovery TLC
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/investigation-discovery/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Discovery_ID.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Discovery ID
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/discovery-turbo/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Discovery_Turbo.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Discovery Turbo
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/discovery-home-and-health/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Discovery_H&H.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Discovery h&h
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/history-channel/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/history.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    History
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/history-channel-2/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/history_2.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    History 2
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/animalplanet/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Animal_Planet.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Animal Planet
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/natgeo/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Natgeo.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    NatGeo
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/home-and-garden/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/09/HGTV.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    HGTV
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="https://crytonep.github.io/mtonline/tcm.html">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/TCM.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    TCM
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/love-nature/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2022/03/LoveNature.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Love Nature
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/glitz/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Glitz.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Glitz
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/i-sat/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/I.Sat.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    I-Sat
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/dhe/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/09/1200px-2020_Canal_DHE_logo.svg-1-e1632252542835.png"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    DHE
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/cinema-plus/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/12/cinemaplus.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Cinema+
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/universaltv/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/universaltv.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Universal TV
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/universal-cinema/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="https://i.imgur.com/zIwowfK.png"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Universal Cinema
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/universal-comedy/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="https://i.imgur.com/sRARRm6.png"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Universal Comedy
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/universal-crime/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="https://i.imgur.com/V9Ihltp.png"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Universal Crime
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/universal-premiere/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="https://i.imgur.com/IiShuq1.png"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Universal Premiere
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/universal-reality/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="https://i.imgur.com/eAIq9yG.png"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Universal Reality
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="https://crytonep.github.io/mtonline/hbo.html">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/HBO.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    HBO
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="https://crytonep.github.io/mtonline/hbo2.html">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/HBO_2.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    HBO 2
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="https://crytonep.github.io/mtonline/hbo-plus.html">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/HBO_Plus.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    HBO Plus
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="https://crytonep.github.io/mtonline/hbo-family.html">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/HBO_Family.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    HBO Family
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="https://crytonep.github.io/mtonline/hbo-mundi.html">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/HBO_Mundi.svg/1200px-HBO_Mundi.svg.png"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    HBO Mundi
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="https://crytonep.github.io/mtonline/hbo-signature.html">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/HBO_Signature.svg/1200px-HBO_Signature.svg.png"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    HBO Signature
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="https://crytonep.github.io/mtonline/hbo-pop.html">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/HBO_Pop.svg/1200px-HBO_Pop.svg.png"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    HBO Pop
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="https://crytonep.github.io/mtonline/hbo-xtreme.html">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/HBO_Xtreme.svg/1200px-HBO_Xtreme.svg.png"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    HBO Xtreme
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="https://crytonep.github.io/mtonline/tnt.html">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/TNT.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    TNT
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="https://crytonep.github.io/mtonline/tnt-series.html">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/TNT_Series.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    TNT Series
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="https://crytonep.github.io/mtonline/tnt-novelas.html">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/tnt_novelas.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    TNT Novelas
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="https://crytonep.github.io/mtonline/trutv.html">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/TruTV.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    TruTV
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/star-channel/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Star_Channel.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Star Channel
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/ondirectv/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/09/1280px-OnDIRECTV_Latin_America_2018.svg-1-e1632252213230.png"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    OnDirecTV
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="https://crytonep.github.io/mtonline/cinemax.html">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Cinemax.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Cinemax
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/space/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Space.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Space
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/usa-network/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="https://i.imgur.com/8ZSWUQg.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    USA Network
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/warner/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Warner_TV.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Warner TV
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/cinecanal/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Cinecanal.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Cinecanal
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/fx/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/FX.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    FX
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/cinear/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/CINEAR.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Cinear
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/axn/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/AXN.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    AXN
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/paramount/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Paramount_Network.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Paramount Network
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/amc/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/AMC.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    AMC
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/volver/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Volver.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Volver
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/e-entertainment/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/E!.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    E! Entertainment
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/studio-universal/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/09/descarga-7-e1632252338500.png" alt=""
+                                        srcset="">
+                                </div>
+                                <h4>
+                                    Studio Universal
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/tvcortos/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/tvcortos.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    TV Cortos
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/ae/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/A&E.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    A&E
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/golden/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/09/golden-1-e1632252290978.jpg" alt=""
+                                        srcset="">
+                                </div>
+                                <h4>
+                                    Golden
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/golden-plus/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="https://www.foromedios.com/uploads/monthly_2021_01/large.92231216_GoldenPlus2020.png.d59a79a13d995edfc0dc2f0c02253cc5.png"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Golden Plus
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/golden-edge/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="https://landing.qlobbi.com/wp-content/uploads/2020/11/golden-edge-1.jpg"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Golden Edge
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/golden-premier/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="https://cdn.mitvstatic.com/channels/co_golden-premier-hd_m.png" alt=""
+                                        srcset="">
+                                </div>
+                                <h4>
+                                    Golden Premier
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/clover-channel/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2022/07/clover-channel.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Clover Channel
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/sun-channel/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/09/descarga-8-e1632252492459.png" alt=""
+                                        srcset="">
+                                </div>
+                                <h4>
+                                    Sun Channel
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/sony/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Sony_Channel.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Sony
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/sony-movies/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/sony_movies.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Sony Movies
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/sony-novelas/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="https://provider-static.plex.tv/epg/images/ott_channels/arts/sony_novelas_1.jpg"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Sony Novelas
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/sony-competencias/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="https://image.xumo.com/v1/channels/channel/99991762/300x300.png?type=smartCast_channelTile"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Sony Competencias
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/a3cine">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/A3Cine.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    A3Cine
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/a3series">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Atreseries_2020_logo.svg/1200px-Atreseries_2020_logo.svg.png"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    A3Series
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/film-and-arts/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Film_&_Arts.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Film & Arts
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/comedy-central/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Comedy_Central.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Comedy Central
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/distrito-comedia/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="https://www.foromedios.com/uploads/monthly_2018_10/large_DC.jpeg.50be5f3567205206737ba0449f27fde0.jpeg"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Distrito Comedia
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/lifetime/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/wp/wp-content/uploads/2021/09/lifetime-e1632252438462.png" alt=""
+                                        srcset="">
+                                </div>
+                                <h4>
+                                    Lifetime
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/food-network/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Food_Network.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Food Network
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" canal-item col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/el-gourmet/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/El_Gourmet.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    El Gourmet
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="canal-item col-xs-6 col-sm-6 col-md-3 col-lg-2 adulto"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/venus/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Venus.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Venus (18+)
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="canal-item col-xs-6 col-sm-6 col-md-3 col-lg-2 adulto"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/playboy/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="/img/logo_canal/Playboy_TV.png" alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Playboy TV (18+)
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="canal-item col-xs-6 col-sm-6 col-md-3 col-lg-2 adulto"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/sextreme/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="https://www.totalmedios.com/img/noticias/2011/05/Noticia11837__236x150.jpg"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Sextreme (18+)
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="canal-item col-xs-6 col-sm-6 col-md-3 col-lg-2 adulto"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/miamitv/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="https://pbs.twimg.com/profile_images/851530148998520833/lnGsJSwt_400x400.jpg"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Miami TV (18+)
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="canal-item col-xs-6 col-sm-6 col-md-3 col-lg-2 adulto"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/hustler/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="https://www.pasjatv.pl/files/tv/photo/max/149684465672_hustler_hd.jpg"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Hustler (18+)
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="canal-item col-xs-6 col-sm-6 col-md-3 col-lg-2 adulto"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/private/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="https://masmediatv.es/images/2020/10/23/canales-private-removebg-preview.png"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Private (18+)
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="canal-item col-xs-6 col-sm-6 col-md-3 col-lg-2 adulto"
+                        data-groups='["category_all", "category_11"]'>
+                        <a href="/en-vivo/sexyhot/">
+                            <div class="lm-canal lm-info-block gray-default">
+                                <div class="container-image">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/2/25/Sexy_Hot_logo.png"
+                                        alt="" srcset="">
+                                </div>
+                                <h4>
+                                    Sexy HOT (18+)
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
                 </div>
 
                 <div class="footer">
-               
+                <p></p>    
                <div class="sharethis-inline-share-buttons"></div>
               <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=616bdca004c9870012778d81&product=sticky-share-buttons" async="async"></script>
-                    
-                
+                <p></p>
                 <a>
-                    <p>Mega Televisión 2024 &copy; Todos los derechos reservados.&nbsp; - <a href="/dmca/"
+                    <p>Mega Televisión 2023 &copy; Todos los derechos reservados.&nbsp; - <a href="/dmca/"
                             rel="nofollow">DMCA</a>
                             <p></p>
-                            
+                            <script id="_wauat7">var _wau = _wau || []; _wau.push(["colored", "8y1hzua3nj", "at7", "ffffff000000"]);</script><script async src="//waust.at/co.js"></script>
                     </p>
                 </div>
 
             </div>
         </div>
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="/tv/jquery-3.5.1.min.js"></script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="/js2/jquery-3.5.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="/tv/imagesloaded.pkgd.min.js"></script>
-<script src="/tv/bootstrap.min.js"></script>
-<script src='/tv/jquery.shuffle.min.js'></script>
-<script src='/tv/owl.carousel.min.js'></script>
-<script src="/tv/jquery.magnific-popup.min.js"></script>
-<script src="/tv/main.js"></script>
+<script src="//js2/imagesloaded.pkgd.min.js"></script>
+<script src="/js2/bootstrap.min.js"></script>
+<script src='/js2/jquery.shuffle.min.js'></script>
+<script src='/js2/owl.carousel.min.js'></script>
+<script src="/js2/jquery.magnific-popup.min.js"></script>
+<script src="/js2/main.js"></script>
 </body>
 
 </html>
