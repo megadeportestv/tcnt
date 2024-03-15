@@ -95,15 +95,32 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <!-- First image -->
-                <img src="https://media.ambito.com/p/744f6224bf55fd8d14d52485f4c6f754/adjuntos/239/imagenes/041/355/0041355076/730x0/smart/viernespng.png" alt="First image description" class="img-fluid mb-3">
-                
-                <!-- Second image -->
-                <img src="path_to_your_second_image.jpg" alt="Second image description" class="img-fluid mb-3">
-                
-                <!-- Third image -->
-                <img src="path_to_your_third_image.jpg" alt="Third image description" class="img-fluid mb-3">
-                
+                <!-- Carousel -->
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <!-- First image -->
+                        <div class="carousel-item active">
+                            <img src="https://media.ambito.com/p/744f6224bf55fd8d14d52485f4c6f754/adjuntos/239/imagenes/041/355/0041355076/730x0/smart/viernespng.png" class="d-block w-100" alt="First image">
+                        </div>
+                        <!-- Second image -->
+                        <div class="carousel-item">
+                            <img src="https://media.ambito.com/p/330c20e0d3930fb45de1df1e27e91fb6/adjuntos/239/imagenes/041/355/0041355077/730x0/smart/sabadopng.png" class="d-block w-100" alt="Second image">
+                        </div>
+                        <!-- Third image -->
+                        <div class="carousel-item">
+                            <img src="https://media.ambito.com/p/7577a8f5043d12e10a2156704c174525/adjuntos/239/imagenes/041/355/0041355078/730x0/smart/domingopng.png" class="d-block w-100" alt="Third image">
+                        </div>
+                    </div>
+                    <!-- Carousel controls -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
                 <!-- Additional content -->
                 <p>This is the modal body content.</p>
             </div>
@@ -113,6 +130,7 @@
         </div>
     </div>
 </div>
+
 
 
                          
